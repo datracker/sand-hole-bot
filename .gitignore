@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Bot runtime artifacts
+solution.pkl
+moves.txt
+solver_plan.txt
+old_solve_log.txt
+
+# Debug / calibration screenshots (window.png, grid_check.png, timer*.png, ...)
+*.png
+
+# OS cruft
+.DS_Store
