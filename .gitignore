@@ -3,14 +3,25 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Bot runtime artifacts
-solution.pkl
+# Bot runtime artifacts (a pickle runs code when loaded, so none should ever be committed)
+*.pkl
 moves.txt
 solver_plan.txt
 old_solve_log.txt
 
 # Debug / calibration screenshots (window.png, grid_check.png, timer*.png, ...)
 *.png
+
+# Secrets and keys
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ecdsa*
+id_ed25519*
 
 # OS cruft
 .DS_Store
